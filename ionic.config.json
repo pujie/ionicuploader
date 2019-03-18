@@ -1,6 +1,8 @@
 {
   "name": "ionicuploader",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular",
   "id": "7ae24c02"
 }
