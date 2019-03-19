@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>filechooser</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <img [src]="uploadImage" alt="" id="img">
+<ion-button (click)="openFile()" type="file">Choose File</ion-button>
+<ion-input type="file" placeholder="Pilih FIle" (change)="openFile($event)"></ion-input>
+</ion-content>
